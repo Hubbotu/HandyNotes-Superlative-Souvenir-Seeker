@@ -1,0 +1,27 @@
+## Interface: 120100
+## Title: Souvenir Seeker
+## Title-ruRU: Искатель сувениров
+## Notes: Souvenir Seeker, Founder's Point and Razorwind Shores
+## Notes-ruRU: Искатель сувениров: лагерь Основателя и берега Колючего Ветра
+## Author: ZamestoTV
+## IconTexture: Interface\AddOns\ZamestoTV_SouvenirSeeker\Icons\goblin
+## Version: 1.5.9
+## X-Category: Map
+## RequiredDeps: HandyNotes
+## DefaultState: Enabled
+## SavedVariables: BarrelsOfFunDB, ZorROpenableScanEnabled, BronzeTrackerDB, RemixAddon_SavedVariables, AutoScrapDB, RemixButtonState, ZamestoTV_RemixDB, KnownFilterDB
+## SavedVariables: KnownFilterDB
+
+## Category-enUS: Addons ZamestoTV
+## Category-ruRU: Аддоны ZamestoTV
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+Localization/ruRU.lua
+Localization/enUS.lua
+
+handler.lua
+config.lua
+gold.lua
