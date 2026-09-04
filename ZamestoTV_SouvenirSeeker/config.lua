@@ -92,24 +92,39 @@ ns.options = {
     },
 }
 
--- moved this up
-local GetCriteriaInfo = function(id, criteria)
-    local results = {GetAchievementCriteriaInfoByID(id, criteria)}
-    if not results[1] then
-        if criteria <= GetAchievementNumCriteria(id) then
-            results = {GetAchievementCriteriaInfo(id, criteria)}
-        else
-            ns.Error(
-                'unknown achievement criteria (' .. id .. ', ' .. criteria ..
-                    ')')
-            return UNKNOWN
+local GetCriteriaCompleted = function(achievementTable)
+    if not achievementTable or not achievementTable.criteria then return false end
+
+    local completed = false
+
+    if achievementTable.id then
+        local success, _, _, isCompleted = pcall(GetAchievementCriteriaInfoByID, achievementTable.id, achievementTable.criteria)
+        if success and isCompleted ~= nil then
+            return isCompleted
+        end
+
+        local numCriteria = GetAchievementNumCriteria(achievementTable.id)
+        if numCriteria and numCriteria > 0 then
+            for i = 1, numCriteria do
+                local _, _, isComp, _, _, _, _, _, _, criteriaID = GetAchievementCriteriaInfo(achievementTable.id, i)
+                if criteriaID == achievementTable.criteria or i == achievementTable.criteria then
+                    return isComp
+                end
+            end
+        end
+    else
+        local success, _, _, isCompleted = pcall(GetAchievementCriteriaInfoByID, achievementTable.criteria)
+        if success and isCompleted ~= nil then
+            return isCompleted
         end
     end
-    return unpack(results)
+
+    return completed
 end
 
 local player_faction = UnitFactionGroup("player")
 local player_name = UnitName("player")
+
 ns.should_show_point = function(coord, point, currentZone, isMinimap)
     if isMinimap and not ns.db.show_on_minimap and not point.minimap then
         return false
@@ -135,9 +150,22 @@ ns.should_show_point = function(coord, point, currentZone, isMinimap)
         return false
     end
 
-    -- Added this
-    if point.achievement and select(13, GetCriteriaInfo(point.achievement.id, point.achievement.criteria)) then
+    if point.achievement and GetCriteriaCompleted(point.achievement) then
         return false
     end
+
     return true
+end
+
+local plugin = LibStub("AceAddon-3.0"):GetAddon(myname, true)
+if plugin then
+    local function RefreshIcons()
+        if ns.HL then
+            ns.HL:SendMessage("HandyNotes_NotifyUpdate", myname:gsub("HandyNotes_", ""))
+        end
+    end
+
+    plugin:RegisterEvent("CRITERIA_UPDATE", RefreshIcons)
+    plugin:RegisterEvent("ACHIEVEMENT_EARNED", RefreshIcons)
+    plugin:RegisterEvent("QUEST_TURNED_IN", RefreshIcons)
 end

@@ -270,11 +270,11 @@ do
         Debug("GetNodes2", uiMapID, minimap)
         currentZone = uiMapID
         isMinimap = minimap
-        if minimap and ns.map_spellids[uiMapID] then
-            if ns.map_spellids[mapFile] == true then
+        if minimap and ns.map_spellids and ns.map_spellids[uiMapID] then
+            if ns.map_spellids[uiMapID] == true then
                 return iter
             end
-            if UnitHasBuff("player", ns.map_spellids[mapFile]) then
+            if UnitHasBuff("player", ns.map_spellids[uiMapID]) then
                 return iter
             end
         end
@@ -293,7 +293,9 @@ function HL:OnInitialize()
     -- Initialize our database with HandyNotes
     HandyNotes:RegisterPluginDB(myname:gsub("HandyNotes_", ""), HLHandler, ns.options)
 
-    -- watch for LOOT_CLOSED
+    self:RegisterEvent("CRITERIA_UPDATE", "Refresh")
+    self:RegisterEvent("ACHIEVEMENT_EARNED", "Refresh")
+    self:RegisterEvent("QUEST_TURNED_IN", "Refresh")
     self:RegisterEvent("LOOT_CLOSED", "Refresh")
     self:RegisterEvent("ZONE_CHANGED_INDOORS", "Refresh")
 end
