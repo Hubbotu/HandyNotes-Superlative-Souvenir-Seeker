@@ -514,7 +514,7 @@ ns.points = {
     },
 [2351] = { -- Razorwind Shores
         [54205690] = ({
-            label = L["Souvenir Seeker 1"],
+            label = L["Secret Souvenir 1"],
             cont = true,
             achievement = {id = 63441, criteria = 117974},
             ZamestoTV_Remix = true,
@@ -522,7 +522,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [54805750] = ({
-            label = L["Souvenir Seeker 2"],
+            label = L["Secret Souvenir 2"],
             cont = true,
             achievement = {id = 63441, criteria = 117975},
             ZamestoTV_Remix = true,
@@ -530,7 +530,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [53305660] = ({
-            label = L["Souvenir Seeker 3"],
+            label = L["Secret Souvenir 3"],
             cont = true,
             achievement = {id = 63441, criteria = 117976},
             ZamestoTV_Remix = true,
@@ -538,7 +538,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [52705270] = ({
-            label = L["Souvenir Seeker 4"],
+            label = L["Secret Souvenir 4"],
             cont = true,
             achievement = {id = 63441, criteria = 117977},
             ZamestoTV_Remix = true,
@@ -546,7 +546,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [53904890] = ({
-            label = L["Souvenir Seeker 5"],
+            label = L["Secret Souvenir 5"],
             cont = true,
             achievement = {id = 63441, criteria = 117978},
             ZamestoTV_Remix = true,
@@ -554,7 +554,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [58504950] = ({
-            label = L["Souvenir Seeker 6"],
+            label = L["Secret Souvenir 6"],
             cont = true,
             achievement = {id = 63441, criteria = 117979},
             ZamestoTV_Remix = true,
@@ -562,7 +562,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [51505870] = ({
-            label = L["Souvenir Seeker 7"],
+            label = L["Secret Souvenir 7"],
             cont = true,
             achievement = {id = 63441, criteria = 117980},
             ZamestoTV_Remix = true,
@@ -570,7 +570,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [63574418] = ({
-            label = L["Souvenir Seeker 8"],
+            label = L["Secret Souvenir 8"],
             cont = true,
             achievement = {id = 63441, criteria = 117981},
             ZamestoTV_Remix = true,
@@ -578,7 +578,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [62505210] = ({
-            label = L["Souvenir Seeker 9"],
+            label = L["Secret Souvenir 9"],
             cont = true,
             achievement = {id = 63441, criteria = 117982},
             ZamestoTV_Remix = true,
@@ -586,7 +586,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [64405830] = ({
-            label = L["Souvenir Seeker 10"],
+            label = L["Secret Souvenir 10"],
             cont = true,
             achievement = {id = 63441, criteria = 117983},
             ZamestoTV_Remix = true,
@@ -594,7 +594,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [69007600] = ({
-            label = L["Souvenir Seeker 11"],
+            label = L["Secret Souvenir 11"],
             cont = true,
             achievement = {id = 63441, criteria = 117984},
             ZamestoTV_Remix = true,
@@ -602,7 +602,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [62209030] = ({
-            label = L["Souvenir Seeker 12"],
+            label = L["Secret Souvenir 12"],
             cont = true,
             achievement = {id = 63441, criteria = 117985},
             ZamestoTV_Remix = true,
@@ -610,7 +610,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [61508980] = ({
-            label = L["Souvenir Seeker 13"],
+            label = L["Secret Souvenir 13"],
             cont = true,
             achievement = {id = 63441, criteria = 117986},
             ZamestoTV_Remix = true,
@@ -618,7 +618,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [54408150] = ({
-            label = L["Souvenir Seeker 14"],
+            label = L["Secret Souvenir 14"],
             cont = true,
             achievement = {id = 63441, criteria = 117987},
             ZamestoTV_Remix = true,
@@ -626,7 +626,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [52007240] = ({
-            label = L["Souvenir Seeker 15"],
+            label = L["Secret Souvenir 15"],
             cont = true,
             achievement = {id = 63441, criteria = 117988},
             ZamestoTV_Remix = true,
@@ -634,7 +634,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [51106960] = ({
-            label = L["Souvenir Seeker 16"],
+            label = L["Secret Souvenir 16"],
             cont = true,
             achievement = {id = 63441, criteria = 117989},
             ZamestoTV_Remix = true,
@@ -642,7 +642,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [52606430] = ({
-            label = L["Souvenir Seeker 17"],
+            label = L["Secret Souvenir 17"],
             cont = true,
             achievement = {id = 63441, criteria = 117990},
             ZamestoTV_Remix = true,
@@ -650,7 +650,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [44605440] = ({
-            label = L["Souvenir Seeker 18"],
+            label = L["Secret Souvenir 18"],
             cont = true,
             achievement = {id = 63441, criteria = 117991},
             ZamestoTV_Remix = true,
@@ -658,7 +658,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [43705060] = ({
-            label = L["Souvenir Seeker 19"],
+            label = L["Secret Souvenir 19"],
             cont = true,
             achievement = {id = 63441, criteria = 117992},
             ZamestoTV_Remix = true,
@@ -666,7 +666,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [39305780] = ({
-            label = L["Souvenir Seeker 20"],
+            label = L["Secret Souvenir 20"],
             cont = true,
             achievement = {id = 63441, criteria = 117993},
             ZamestoTV_Remix = true,
@@ -674,7 +674,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [41606690] = ({
-            label = L["Souvenir Seeker 21"],
+            label = L["Secret Souvenir 21"],
             cont = true,
             achievement = {id = 63441, criteria = 117994},
             ZamestoTV_Remix = true,
@@ -682,7 +682,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [42707000] = ({
-            label = L["Souvenir Seeker 22"],
+            label = L["Secret Souvenir 22"],
             cont = true,
             achievement = {id = 63441, criteria = 117995},
             ZamestoTV_Remix = true,
@@ -690,7 +690,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [44906610] = ({
-            label = L["Souvenir Seeker 23"],
+            label = L["Secret Souvenir 23"],
             cont = true,
             achievement = {id = 63441, criteria = 117996},
             ZamestoTV_Remix = true,
@@ -698,7 +698,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [46707530] = ({
-            label = L["Souvenir Seeker 24"],
+            label = L["Secret Souvenir 24"],
             cont = true,
             achievement = {id = 63441, criteria = 117997},
             ZamestoTV_Remix = true,
@@ -706,7 +706,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [40807870] = ({
-            label = L["Souvenir Seeker 25"],
+            label = L["Secret Souvenir 25"],
             cont = true,
             achievement = {id = 63441, criteria = 117998},
             ZamestoTV_Remix = true,
@@ -714,7 +714,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [38708020] = ({
-            label = L["Souvenir Seeker 26"],
+            label = L["Secret Souvenir 26"],
             cont = true,
             achievement = {id = 63441, criteria = 117999},
             ZamestoTV_Remix = true,
@@ -722,7 +722,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [44008740] = ({
-            label = L["Souvenir Seeker 27"],
+            label = L["Secret Souvenir 27"],
             cont = true,
             achievement = {id = 63441, criteria = 118000},
             ZamestoTV_Remix = true,
@@ -730,7 +730,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [51108990] = ({
-            label = L["Souvenir Seeker 28"],
+            label = L["Secret Souvenir 28"],
             cont = true,
             achievement = {id = 63441, criteria = 118001},
             ZamestoTV_Remix = true,
@@ -738,7 +738,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [64006950] = ({
-            label = L["Souvenir Seeker 29"],
+            label = L["Secret Souvenir 29"],
             cont = true,
             achievement = {id = 63441, criteria = 118002},
             ZamestoTV_Remix = true,
@@ -746,7 +746,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [62006320] = ({
-            label = L["Souvenir Seeker 30"],
+            label = L["Secret Souvenir 30"],
             cont = true,
             achievement = {id = 63441, criteria = 118003},
             ZamestoTV_Remix = true,
@@ -754,7 +754,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [59706470] = ({
-            label = L["Souvenir Seeker 31"],
+            label = L["Secret Souvenir 31"],
             cont = true,
             achievement = {id = 63441, criteria = 118004},
             ZamestoTV_Remix = true,
@@ -762,7 +762,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [58006380] = ({
-            label = L["Souvenir Seeker 32"],
+            label = L["Secret Souvenir 32"],
             cont = true,
             achievement = {id = 63441, criteria = 118005},
             ZamestoTV_Remix = true,
@@ -770,7 +770,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [57906970] = ({
-            label = L["Souvenir Seeker 33"],
+            label = L["Secret Souvenir 33"],
             cont = true,
             achievement = {id = 63441, criteria = 118006},
             ZamestoTV_Remix = true,
@@ -778,7 +778,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [50506260] = ({
-            label = L["Souvenir Seeker 34"],
+            label = L["Secret Souvenir 34"],
             cont = true,
             achievement = {id = 63441, criteria = 118007},
             ZamestoTV_Remix = true,
@@ -786,7 +786,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [51006510] = ({
-            label = L["Souvenir Seeker 35"],
+            label = L["Secret Souvenir 35"],
             cont = true,
             achievement = {id = 63441, criteria = 118008},
             ZamestoTV_Remix = true,
@@ -794,7 +794,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [47606210] = ({
-            label = L["Souvenir Seeker 36"],
+            label = L["Secret Souvenir 36"],
             cont = true,
             achievement = {id = 63441, criteria = 118009},
             ZamestoTV_Remix = true,
@@ -802,7 +802,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [48406170] = ({
-            label = L["Souvenir Seeker 37"],
+            label = L["Secret Souvenir 37"],
             cont = true,
             achievement = {id = 63441, criteria = 118010},
             ZamestoTV_Remix = true,
@@ -810,7 +810,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [48205850] = ({
-            label = L["Souvenir Seeker 38"],
+            label = L["Secret Souvenir 38"],
             cont = true,
             achievement = {id = 63441, criteria = 118011},
             ZamestoTV_Remix = true,
@@ -818,7 +818,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [48705410] = ({
-            label = L["Souvenir Seeker 39"],
+            label = L["Secret Souvenir 39"],
             cont = true,
             achievement = {id = 63441, criteria = 118012},
             ZamestoTV_Remix = true,
@@ -826,7 +826,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [55905050] = ({
-            label = L["Souvenir Seeker 40"],
+            label = L["Secret Souvenir 40"],
             cont = true,
             achievement = {id = 63441, criteria = 118013},
             ZamestoTV_Remix = true,
@@ -834,7 +834,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [56404840] = ({
-            label = L["Souvenir Seeker 41"],
+            label = L["Secret Souvenir 41"],
             cont = true,
             achievement = {id = 63441, criteria = 118014},
             ZamestoTV_Remix = true,
@@ -842,7 +842,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [55506070] = ({
-            label = L["Souvenir Seeker 42"],
+            label = L["Secret Souvenir 42"],
             cont = true,
             achievement = {id = 63441, criteria = 118015},
             ZamestoTV_Remix = true,
@@ -850,7 +850,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [57205810] = ({
-            label = L["Souvenir Seeker 43"],
+            label = L["Secret Souvenir 43"],
             cont = true,
             achievement = {id = 63441, criteria = 118016},
             ZamestoTV_Remix = true,
@@ -858,7 +858,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [79914050] = ({
-            label = L["Souvenir Seeker 44"],
+            label = L["Secret Souvenir 44"],
             cont = true,
             achievement = {id = 63441, criteria = 118017},
             ZamestoTV_Remix = true,
@@ -866,7 +866,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [41872446] = ({
-            label = L["Souvenir Seeker 45"],
+            label = L["Secret Souvenir 45"],
             cont = true,
             achievement = {id = 63441, criteria = 118018},
             ZamestoTV_Remix = true,
@@ -874,7 +874,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [22904250] = ({
-            label = L["Souvenir Seeker 46"],
+            label = L["Secret Souvenir 46"],
             cont = true,
             achievement = {id = 63441, criteria = 118019},
             ZamestoTV_Remix = true,
@@ -882,7 +882,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [75708880] = ({
-            label = L["Souvenir Seeker 47"],
+            label = L["Secret Souvenir 47"],
             cont = true,
             achievement = {id = 63441, criteria = 118020},
             ZamestoTV_Remix = true,
@@ -890,7 +890,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [58805540] = ({
-            label = L["Souvenir Seeker 48"],
+            label = L["Secret Souvenir 48"],
             cont = true,
             achievement = {id = 63441, criteria = 118021},
             ZamestoTV_Remix = true,
@@ -898,7 +898,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [51505400] = ({
-            label = L["Souvenir Seeker 49"],
+            label = L["Secret Souvenir 49"],
             cont = true,
             achievement = {id = 63441, criteria = 118022},
             ZamestoTV_Remix = true,
@@ -906,7 +906,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [53605450] = ({
-            label = L["Souvenir Seeker 50"],
+            label = L["Secret Souvenir 50"],
             cont = true,
             achievement = {id = 63441, criteria = 118023},
             ZamestoTV_Remix = true,
@@ -914,7 +914,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [59005600] = ({
-            label = L["Souvenir Seeker 51"],
+            label = L["Secret Souvenir 51"],
             cont = true,
             achievement = {id = 63441, criteria = 118024},
             ZamestoTV_Remix = true,
@@ -922,7 +922,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [47205970] = ({
-            label = L["Souvenir Seeker 52"],
+            label = L["Secret Souvenir 52"],
             cont = true,
             achievement = {id = 63441, criteria = 118025},
             ZamestoTV_Remix = true,
@@ -930,7 +930,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [63707140] = ({
-            label = L["Souvenir Seeker 53"],
+            label = L["Secret Souvenir 53"],
             cont = true,
             achievement = {id = 63441, criteria = 118026},
             ZamestoTV_Remix = true,
@@ -938,15 +938,31 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [59905440] = ({
-            label = L["Souvenir Seeker 54"],
+            label = L["Secret Souvenir 54"],
             cont = true,
             achievement = {id = 63441, criteria = 118027},
             ZamestoTV_Remix = true,
             note = L["RS_54_NOTE"],
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
+        [67805534] = ({
+            label = L["Secret Souvenir 54"],
+            cont = true,
+            achievement = {id = 63441, criteria = 118027},
+            ZamestoTV_Remix = true,
+            note = L["RS_54_NOTE"],
+            pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
+        }),
+        [65905310] = ({
+            label = L["Secret Souvenir 54"],
+            cont = true,
+            achievement = {id = 63441, criteria = 118027},
+            ZamestoTV_Remix = true,
+            note = L["RS_54_NOTE"],
+            pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
+        }),		
         [52607310] = ({
-            label = L["Souvenir Seeker 55"],
+            label = L["Secret Souvenir 55"],
             cont = true,
             achievement = {id = 63441, criteria = 118028},
             ZamestoTV_Remix = true,
@@ -954,7 +970,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [55206180] = ({
-            label = L["Souvenir Seeker 56"],
+            label = L["Secret Souvenir 56"],
             cont = true,
             achievement = {id = 63441, criteria = 118029},
             ZamestoTV_Remix = true,
@@ -962,7 +978,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [39107380] = ({
-            label = L["Souvenir Seeker 57"],
+            label = L["Secret Souvenir 57"],
             cont = true,
             achievement = {id = 63441, criteria = 118030},
             ZamestoTV_Remix = true,
@@ -970,7 +986,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [75304840] = ({
-            label = L["Souvenir Seeker 58"],
+            label = L["Secret Souvenir 58"],
             cont = true,
             achievement = {id = 63441, criteria = 118031},
             ZamestoTV_Remix = true,
@@ -978,7 +994,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [26343351] = ({
-            label = L["Souvenir Seeker 59"],
+            label = L["Secret Souvenir 59"],
             cont = true,
             achievement = {id = 63441, criteria = 118032},
             ZamestoTV_Remix = true,
@@ -986,7 +1002,7 @@ ns.points = {
             pathto = "Interface\\Addons\\"..myname.."\\Icons\\chest.tga",
         }),
         [56009500] = ({
-            label = L["Souvenir Seeker 60"],
+            label = L["Secret Souvenir 60"],
             cont = true,
             achievement = {id = 63441, criteria = 118033},
             ZamestoTV_Remix = true,
