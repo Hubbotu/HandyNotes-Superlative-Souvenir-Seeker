@@ -3,6 +3,7 @@
 ## Title-ruRU: Искатель сувениров
 ## Notes: Souvenir Seeker, Founder's Point and Razorwind Shores
 ## Notes-ruRU: Искатель сувениров: лагерь Основателя и берега Колючего Ветра
+## Notes-zhCN: 纪念品搜寻者：创始者之角与烈风海岸
 ## Author: ZamestoTV
 ## IconTexture: Interface\AddOns\ZamestoTV_SouvenirSeeker\Icons\goblin
 ## Version: 2.0.7
